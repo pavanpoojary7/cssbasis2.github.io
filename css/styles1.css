@@ -1,0 +1,108 @@
+/* back ground image */
+*{
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+div{
+    height: 400px;
+    color: red;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+    
+.big{
+    background: url("background.jpeg") ;
+    background-position: c;
+    min-height: 100vh;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-attachment: fixed; 
+    display: flex; 
+}
+.small{
+    background: url("1.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.folder{
+    background: url("/css/img/folder.jpeg");
+    background-repeat: repeat-x;
+    background-size: contain;
+    min-height: 100vh;
+    color: blue;
+    font-size: 60px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+   
+.one{
+    background: linear-gradient(red,green);
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+.two{
+    background: linear-gradient(to top,red,green);
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+
+.four{
+    background: linear-gradient(315deg,red,green,blue,yellow);
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+/* float and clear */
+.banner{
+    border: 2px solid red;
+    padding: 10px;
+    height: 300px;
+}
+img{
+    float: right;
+    height: 150px;
+
+}
+p{
+  clear: both;
+}
+.box1{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+float: left;
+background-color: orangered;
+width: 33.33%;
+color: black;
+text-align: center;
+height: 100px;
+
+}
+.box2{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    float: left;
+    background-color: white;
+    width: 33.33%;
+    color: blue;
+    text-align: center;
+    height: 100px;
+}
+    
+.box3{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: green;
+    color: black;
+    text-align: center;
+    height: 100px;
+}
